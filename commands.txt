@@ -1,0 +1,11 @@
+python ai_scientist/perform_ideation_temp_free.py --workshop-file "ai_scientist/ideas/hallucination-doom.md" --model bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0  --max-num-generations 2 --num-reflections 5
+
+python launch_scientist_bfts.py \
+ --load_ideas "ai_scientist/ideas/hallucination-doom.json" \
+ --load_code \
+ --add_dataset_ref \
+ --model_writeup bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
+ --model_citation bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
+ --model_review bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
+ --model_agg_plots bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
+ --num_cite_rounds 20
