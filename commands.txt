@@ -9,3 +9,6 @@ python launch_scientist_bfts.py \
  --model_review bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
  --model_agg_plots bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0 \
  --num_cite_rounds 20
+
+# link
+https://github.com/jamesalphanome/AI-Scientist-v2/tree/dev
